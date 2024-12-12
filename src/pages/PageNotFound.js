@@ -15,8 +15,9 @@ export const PageNotFound = () => {
     <>
       <PageTitle title={"없습니다!"} />
       <Container
-        maxW="container.md"
+        maxW={450}
         h="100vh"
+        margin="0 auto"
         display="flex"
         alignItems="center"
         justifyContent="center"

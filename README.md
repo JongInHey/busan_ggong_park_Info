@@ -16,10 +16,6 @@
 - node.js
 - node-fetch
 - Chakra UI
-- react-icons
-- react-hook-form
-- react-spinners
-- localStorage
 - git / github
 
 ## ⏰개발 기간
@@ -64,6 +60,14 @@
 - 포인트 컬러 - `#ffa825` || `rgb(255, 168, 37)` 사용
 - 폰트 (구글 웹 폰트) - `Noto Sans KR, sans-serif` || `Noto Serif KR, serif` 사용
 
+<p>
+<image src="https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MjNfMTQg/MDAxNzI0Mzk4MzY4MDgz.PvLVzcG5AtTRPDIWrSzxQDJBG61D1gD6buSero9iS8Eg.VzlnF4vUWdJ2OsNtqk8Ad2wpPCczyzgYNmtYxAYDGR4g.JPEG/%EA%B2%B0%EA%B3%BC-1.jpg" alt="Home" width="234px" height="480px">
+<image src="https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MjNfNTMg/MDAxNzI0Mzk4MzY4MDY4.1l9jvT4YrI4L_G_wLEz3ozSbDEKk04k9NSQFkhgSsOAg.HkH3Vr2ICIeuNB0azYMVpsuUYF1OxSggHAz2NFVtMkEg.JPEG/%EA%B2%B0%EA%B3%BC-2.jpg" alt="Search" width="234px" height="480px">
+<image src="https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MjNfMjY0/MDAxNzI0Mzk4MzY4MDgz.rjbX8LrkuMo5Ynx4IEMFDG4Vfstx1Yf-g7KzqtW4h9og.uJ29_LqUg3Eh5bYHJqfnr8AGWAYqXxk8Fou6YVZCbSog.JPEG/%EA%B2%B0%EA%B3%BC-3.jpg" alt="favor" width="234px" height="480px">
+<image src="https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MjNfODcg/MDAxNzI0Mzk4MzY4MDgz.aSkA2xG37cmdVpc9RUZOidR3dCWnyrMKaz8dnq6KqSUg.kDizt2h8QL0_QV-4uVIY8V3fWunG_L8mB6uPL_jSvbUg.JPEG/%EA%B2%B0%EA%B3%BC-5.jpg" alt="Detail" width="234px" height="600px">
+<image src="https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MjNfMTIw/MDAxNzI0Mzk4MzY4MDcw.A5O6NJ22_a7YYuFzrmoUov1IwccseDH2U_-7oA89msMg.kVTqb_ad-Oh7IyZzHt0LSoJ8skHXUjiI5_BGFgIsEogg.JPEG/%EA%B2%B0%EA%B3%BC-4.jpg" alt="menu" width="234px" height="480px">
+</p>
+
 1. 메인 페이지
 
    - 내 현재 위치를 지도 중심 좌표로 지정
@@ -95,8 +99,14 @@
    - 클릭 시 상세페이지로 이동
 
    - 즐겨찾기 한 주차장 꽉 찬 별로 표시
+  
+4. 즐겨찾기 페이지
 
-4. 상세 페이지
+   - 등록한 주차장이 없을 경우 추가 문구 표시 및 검색 페이지로 이동 가능
+
+   - 즐겨찾기 등록 후 페이지로 이동 시 등록 한 주차장 명, 주소, 요금 표시
+
+5. 상세 페이지
 
    - 상단에 주차장 명, 주소, 즐겨찾기 버튼 표시
 
@@ -104,17 +114,11 @@
 
    - 주차구획수, 주차장유형, 주차장 구분, 요금 정보, 운영시간, 위치정보 표시
 
-5. 우측 모달 메뉴
+6. 우측 모달 메뉴
 
    - 각 페이지 홈, 검색, 즐겨 찾는 주차장으로 이동 가능
 
    - 메뉴 바깥 및 x 표시 클릭 시 메뉴 닫힘
-
-6. 즐겨찾기 페이지
-
-   - 등록한 주차장이 없을 경우 추가 문구 표시 및 검색 페이지로 이동 가능
-
-   - 즐겨찾기 등록 후 페이지로 이동 시 등록 한 주차장 명, 주소, 요금 표시
 
 ## 프로젝트하면서 느낀 점
 
